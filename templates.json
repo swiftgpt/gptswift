@@ -3,7 +3,7 @@
         "title": "Generate Travel Guide",
         "author": {
             "name": "Jierre",
-            "support": "buy me a coffee through this link `https://www.buymeacoffee.com/jierre` . Thank you."
+            "support": "buy me a coffee through this link `[https://www.buymeacoffee.com/jierre]https://www.buymeacoffee.com/jierre` ."
         },
         "parameters": {
             "destination": {
