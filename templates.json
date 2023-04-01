@@ -1,4 +1,4 @@
-export const Templates = [
+[
     {
         "title": "Generate Travel Guide",
         "author": {
@@ -41,9 +41,7 @@ export const Templates = [
             { "title": "Transportation", "prompt": "May I kindly request for information on how to navigate $destination during $time, both through public transportation and car rental, taking into consideration my $style travel style and $budget budget style? Kindly provide details on associated costs, as well as any pertinent factors I should be aware of when utilizing each mode of transportation." },
             { "title": "Packing Checklist", "prompt": "Kindly provide me with a list of the top 10 essential items to include in a travel packing checklist for a trip to $destination in $time, along with the reasons why each item is recommended for inclusion." },
             { "title": "What to Bring Back?", "prompt": "Kindly provide me with a list of the top 10 recommended items to bring back as souvenirs or mementos from a trip to $destination in $time, along with the reasons why each item is suggested for inclusion in the checklist." }
-
         ]
     }
-
-];
+]
 
