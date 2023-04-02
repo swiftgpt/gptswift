@@ -48,7 +48,7 @@ The parameters section is used to define the variables that will be used in the 
 
 ### Prompts
 
-The prompts section is used to define the different questions or prompts that the user will receive. Each prompt should include a title and a prompt string that includes variables defined in the parameters section. These prompts will be executed in order. Here's an example:
+The prompts section is used to define the different questions or prompts that the user will receive. Each prompt should include a title and a prompt string that includes variables defined in the parameters section. Although GPTSwift will automatically ask ChatGPT to continue response from unfinished responses, please limit the response to 1 - 2 pages. These prompts will be executed in order. Here's an example:
 
 ```json
 "prompts": [
