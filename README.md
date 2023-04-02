@@ -16,18 +16,18 @@ The title section is used to give a name to the prompt. It should be a brief and
 
 ### Author
 
-The author section is used to provide information about the creator of the prompt, such as their name and contact information. Here's an example:
+The author section is used to provide information about the creator of the prompt, such as their name and support link(such as buymeacoffee) information. Here's an example:
 
 ```json
 "author": {
-    "name": "Jane Smith",
-    "link": "https://www.example.com/contact"
+    "name": "GPT Swift",
+    "link": "https://www.buymeacoffee.com/gptswift"
 }
 ```
 
 ### Parameters
 
-The parameters section is used to define the variables that will be used in the prompts. Each parameter should include a question and a default value. Here's an example:
+The parameters section is used to define the variables that will be used in the prompts. Each parameter should include a question and a default value. Please note that you don't need to include language parameter as it will be injected automatically. Here's an example:
 
 ```json
 "parameters": {
@@ -48,19 +48,19 @@ The parameters section is used to define the variables that will be used in the 
 
 ### Prompts
 
-The prompts section is used to define the different questions or prompts that the user will receive. Each prompt should include a title and a prompt string that includes variables defined in the parameters section. Here's an example:
+The prompts section is used to define the different questions or prompts that the user will receive. Each prompt should include a title and a prompt string that includes variables defined in the parameters section. These prompts will be executed in order. Here's an example:
 
 ```json
 "prompts": [
     {
         "title": "Overview",
-        "prompt": "I can provide you with a list of the best restaurants for $cuisine in $location. What is your budget for this meal?"
+        "prompt": "Please provide me with a list of the best restaurants for $cuisine in $location."
     },
     {
         "title": "Recommendations",
-        "prompt": "Based on your preferences, I recommend the following restaurants:\n\n1. Example Restaurant\n2. Another Example Restaurant\n3. Yet Another Example Restaurant\n\nLet me know if you would like more information on any of these options."
+        "prompt": "Can you please narrow the answers within my budget limit of $price. "
     }
 ]
 ```
 
-By defining these four sections, the prompt engineer can create a structured template that allows for the dynamic generation of prompts based on user input.
+By defining these four sections, you can create a structured template that allows for the dynamic generation of prompts based on user input.
