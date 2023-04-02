@@ -64,3 +64,7 @@ The prompts section is used to define the different questions or prompts that th
 ```
 
 By defining these four sections, you can create a structured template that allows for the dynamic generation of prompts based on user input.
+
+## How to submit
+
+At the moment please submit it through Github Issue https://github.com/swiftgpt/gptswift/issues/new , we are developing an easier way to allow you to test and submit your prompts through the extension. 
